@@ -6,6 +6,12 @@ void NhapMang(long A[], long &n){
         cin>>a[i];
     }
 }
+// Nghia-sama
+void XuatMang(long A[], long n ){
+    for( long i=0; i<n; i++ ){
+        cout<< a[i] <<" ";
+    }
+}
 //
 int main () {
     int k, n;
