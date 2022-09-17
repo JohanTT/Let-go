@@ -52,9 +52,18 @@ long KetQua(long a[], long n, long k) {
 
 int main () {
 
-    int k, n;
-    int A[100];
-    long sum;
+     long a[1000000], n, k;
+    cin >> n >> k;
+    NhapMang(a, n);
+    /*
+    long mid = n/2;
+    SapXepTH(a, 1, n, false);
+    if(n%2 !=0) mid++;
+    sort(a+1, a+n, sxtang);
+    */
+    sort(a + 1, a + n, sxgiam);
+    //XuatMang(a, n);
+    cout << KetQua(a, n, k);
 
     // Ai sửa phần nào thì chú thích phần đó tên của mình với
     return 0;
