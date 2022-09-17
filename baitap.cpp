@@ -2,7 +2,7 @@
 using namespace std;
 
 int main () {
-    // Thắng
+    // Thắng nhưng mà chỉnh thêm xíu
     int k, n;
     int A[100];
     long sum;
