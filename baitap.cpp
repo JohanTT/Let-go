@@ -19,6 +19,7 @@ void XuatMang(long a[], long n) {
 void SapXepTH(long a[], long bd, long kt, long k = true) {
     
 }
+// Tlinh lam cai nay
 bool sxgiam(long i, long j) { return (i > j); }
 bool sxtang(long i, long j) { return (i < j); }
 
@@ -43,4 +44,5 @@ int main () {
 
     // Ai sửa phần nào thì chú thích phần đó tên của mình với
     return 0;
+
 }
