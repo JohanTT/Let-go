@@ -15,10 +15,24 @@ void XuatMang(long a[], long n) {
     }
 }
 
-//f sx tang (true), sx giam (false)
+//f sx tang (true), sx giam (false) handsome boy
 void SapXepTH(long a[], long bd, long kt, long k = true) {
-    
+    for (long i = bd; i < kt; i++) {
+        for (long j = i + 1; j < kt; j++) {
+            if (a[i] > a[j] & k) {
+                long t = a[i];
+                a[i] = a[j];
+                a[j] = t;
+            }
+            else if (a[i] < a[j] & k == false) {
+                long t = a[i];
+                a[i] = a[j];
+                a[j] = t;
+            }
+        }
+    }
 }
+
 // Tlinh lam cai nay
 bool sxgiam(long i, long j) { return (i > j); }
 bool sxtang(long i, long j) { return (i < j); }
