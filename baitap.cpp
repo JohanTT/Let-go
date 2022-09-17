@@ -16,9 +16,11 @@ void XuatMang(long a[], long n) {
 void SapXepTH(long a[], long bd, long kt, long k = true) {
     
 }
+// Tlinh lam cai nay
 bool sxgiam(long i, long j) { return (i > j); }
 bool sxtang(long i, long j) { return (i < j); }
 
+//Khoa làm nè
 long KetQua(long a[], long n, long k) {
     long kq = a[0];
     for (long i = 1; i < n; i++) {
@@ -39,4 +41,3 @@ int main () {
     return 0;
 }
 
-//Khoa làm nè
