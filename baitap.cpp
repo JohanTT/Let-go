@@ -2,10 +2,13 @@
 #include<algorithm>
 using namespace std;
 
-void NhapMang(long a[], long& n) {
-    
+// Nghia-sama
+void NhapMang(long A[], long &n){
+    for ( long i=0; i<n; i++){
+        cin>>a[i];
+    }
 }
-
+//
 void XuatMang(long a[], long n) {
     
 }
@@ -28,8 +31,10 @@ long KetQua(long a[], long n, long k) {
     return kq;
 }
 
-int main() {
-    
+int main () {
+    int k, n;
+    int A[100];
+    long sum;
 
     return 0;
 }
