@@ -1,18 +1,8 @@
 #include <iostream>
 using namespace std;
-// Nghia-sama
-void NhapMang(long A[], long &n){
-    for ( long i=0; i<n; i++){
-        cin>>a[i];
-    }
-}
-//
+bool sxgiam(long i, long j) { return (i > j); }
+bool sxtang(long i, long j) { return (i < j); }
+                                                                // Tlinh
 int main () {
-    int k, n;
-    int A[100];
-    long sum;
-    
-    // Ai sửa phần nào thì chú thích phần đó tên của mình với
-
-    return 0;
+ return 0;
 }
