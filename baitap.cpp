@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
-
+// Nghia-sama
+void NhapMang(long A[], long &n){
+    for ( long i=0; i<n; i++){
+        cin>>a[i];
+    }
+}
+//
 int main () {
     int k, n;
     int A[100];
